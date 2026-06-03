@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "holiday-bot"
+version = "0.1.0"
+description = ""
+authors = ["Иван <romvano@bmstu.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+holidays = "^0.85"
+python-telegram-bot = "^22.5"
+python_dateutil = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
